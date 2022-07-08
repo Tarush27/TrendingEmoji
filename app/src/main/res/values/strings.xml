@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EmojiHub</string>
+    <string name="hugging_face_smiley">&#129303;</string>
 </resources>
