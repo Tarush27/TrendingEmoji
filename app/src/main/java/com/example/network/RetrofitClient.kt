@@ -10,4 +10,5 @@ object RetrofitClient {
         .baseUrl(EMOJI_URL)
         .build()
     private val retrofitService = retrofit.create(RetrofitApiService::class.java)
+    val retrofitApiService: RetrofitApiService get() = retrofitService
 }
