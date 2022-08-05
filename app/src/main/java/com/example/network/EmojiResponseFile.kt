@@ -2,7 +2,9 @@ package com.example.network
 
 import com.google.gson.annotations.SerializedName
 
-data class EmojiResponseFile(
-    @SerializedName("unicode") val unicode: ArrayList<String> = arrayListOf()
+class EmojiResponseFile: ArrayList<Emoji>( )
+
+data class Emoji(
+    @SerializedName("unicode") val unicodes: List<String> = arrayListOf()
 ) {
 }

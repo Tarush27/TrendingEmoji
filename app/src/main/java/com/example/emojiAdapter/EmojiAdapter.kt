@@ -24,4 +24,9 @@ class EmojiAdapter : RecyclerView.Adapter<EmojiViewHolder>() {
     override fun getItemCount(): Int {
         return emojiModels.size
     }
+
+    fun displayEmoji(emojis: List<EmojiModel>) {
+        emojiModels.addAll(emojis)
+        notifyDataSetChanged()
+    }
 }
