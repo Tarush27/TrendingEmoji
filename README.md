@@ -1,6 +1,6 @@
 # TrendingEmoji
 Displays emojis 
-It basically displays list of emojis through an api call along with which a snackbar would be displayed indicating success of failure of the api call.
+It basically displays list of emojis through an api call along with which a snackbar would be displayed indicating success or failure of the api call.
 Supports both light and dark mode.
 Technologies Used:
 android material design components.
